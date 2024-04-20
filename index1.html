@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <link rel="stylesheet" href="./style1.css" />
+    <script
+      src="https://kit.fontawesome.com/349ccceb36.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- create a containe for the todo list -->
+      <header>
+        <h1>ToDo List</h1>
+        <form id="new-task-form">
+          <input
+            type="text"
+            id="new-task-input"
+            placeholder="Enter your task here"
+          />
+
+          <input type="submit" id="new-task-submit" value="Add Task" />
+        </form>
+      </header>
+      <main>
+        <div class="task-list">
+          <h2>Tasks</h2>
+
+          <div id="tasks">
+            <!-- <div class="task">
+                <div class="content">
+                    <input type="text" class="text" value="My today task" readonly />
+                  </div>
+                  <div class="actions">
+                    <button class="edit">
+                      <i class="fa-solid fa-pen-to-square">Edit</i>
+                    </button>
+                    <button class="delete">
+                      <i class="fa-solid fa-trash">Delete</i>
+                    </button>
+            </div>
+           
+            </div> -->
+          </div>
+          <p id="error">Input cannot be empty</p>
+        </div>
+      </main>
+    </div>
+    <script src="./script1.js"></script>
+  </body>
+</html>
